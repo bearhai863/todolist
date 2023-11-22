@@ -1,0 +1,38 @@
+body{
+  font-family: Arial;
+}
+
+.input-grid,
+.todoList-grid{
+  display:grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+}
+
+.input-grid{
+  margin-bottom: 10px;
+  align-items: stretch;
+}
+
+input{
+  font-size: 15px;
+  padding: 8px 5px;
+}
+
+
+button,
+.detele-btn{
+  font-size: 15px;
+  color: white;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.detele-btn{
+  background-color: rgb(196, 4, 4);
+}
